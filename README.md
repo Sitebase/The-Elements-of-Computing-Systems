@@ -18,3 +18,6 @@ Run example
 .tools/tools/HardwareSimulator.sh 01/And.tst
 
 perl -i -pe 's/\r\n$/\n/g' Or.hdl
+
+
+find . -type f -exec dos2unix {} \;
