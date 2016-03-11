@@ -16,3 +16,5 @@ http://stackoverflow.com/questions/5843495/what-does-m-character-mean-in-vim
 
 Run example
 .tools/tools/HardwareSimulator.sh 01/And.tst
+
+perl -i -pe 's/\r\n$/\n/g' Or.hdl
