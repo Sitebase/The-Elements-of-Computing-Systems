@@ -5,3 +5,8 @@
 tools.zip
 .tools
 __MACOSX
+
+# class files
+*.class
+*.elc
+*.pyc
