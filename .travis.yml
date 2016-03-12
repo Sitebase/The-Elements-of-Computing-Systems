@@ -1,0 +1,7 @@
+language: java
+
+before_script:
+    - make install
+
+script:
+    - make test
