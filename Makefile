@@ -8,4 +8,8 @@ install:
 	@rm -rf __MACOSX
 	@echo "tools installed"
 
-.PHONY: install
+test:
+	@echo "run unit tests"
+	@./01/test.sh
+
+.PHONY: install test
