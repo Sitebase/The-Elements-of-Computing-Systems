@@ -17,14 +17,9 @@ To run the unit tests execute following command:
 make test
 ```
 
-## Problem
-All builtIn files contain windows carriage return characters
-http://stackoverflow.com/questions/5843495/what-does-m-character-mean-in-vim
+## Notes
+If you download the project files from the Nand2Tetris website you'll notice that all project files contain Windows carriage return characters (`^M`). To remove these I used following command. `dos2unix` can be install on OSX using `brew install dos2unix`.
 
-Run example
-.tools/tools/HardwareSimulator.sh 01/And.tst
-
-perl -i -pe 's/\r\n$/\n/g' Or.hdl
-
-
+```
 find . -type f -exec dos2unix {} \;
+```
