@@ -10,6 +10,13 @@ To run the tests an compile the code you needs some tools. These tools can easil
 make install
 ```
 
+## Unit test
+To run the unit tests execute following command:
+
+```
+make test
+```
+
 ## Problem
 All builtIn files contain windows carriage return characters
 http://stackoverflow.com/questions/5843495/what-does-m-character-mean-in-vim
