@@ -2,6 +2,8 @@ language: java
 
 before_script:
     - make install
+    - ./.tools/tools/HardwareSimulator.sh "01/And.tst"
+    - ./.tools/tools/HardwareSimulator.sh "01/Or.tst"
 
 script:
     - make test
