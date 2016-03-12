@@ -18,7 +18,7 @@ make test
 ```
 
 ## Notes
-If you download the project files from the Nand2Tetris website you'll notice that all project files contain Windows carriage return characters (`^M`). To remove these I used following command. `dos2unix` can be install on OSX using `brew install dos2unix`.
+If you download the project files from the Nand2Tetris website you'll notice that all project files contain Windows carriage return characters (`^M`). To remove these I used following command. `dos2unix` can be installed on OSX using `brew install dos2unix`.
 
 ```
 find . -type f -exec dos2unix {} \;
