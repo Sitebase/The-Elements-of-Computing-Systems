@@ -4,7 +4,7 @@
 // File name: projects/01/Or8Way.hdl
 
 /**
- * 8-way Or: 
+ * 8-way Or:
  * out = (in[0] or in[1] or ... or in[7])
  */
 
@@ -13,5 +13,14 @@ CHIP Or8Way {
     OUT out;
 
     PARTS:
-    // Put your code here:
+        Or(a=in[0], b=in[1], out=tmp1);
+        Or(a=in[2], b=in[3], out=tmp2);
+        Or(a=in[4], b=in[5], out=tmp3);
+        Or(a=in[6], b=in[7], out=tmp4);
+
+        // 4 bits of a byte is called a nibble
+        Or(a=tmp1, b=tmp2, out=nibble1);
+        Or(a=tmp3, b=tmp4, out=nibble2);
+
+        Or(a=nibble1, b=nibble2, out=out);
 }
