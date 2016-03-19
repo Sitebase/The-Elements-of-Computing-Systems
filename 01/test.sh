@@ -3,7 +3,7 @@ GREEN='\033[0;32m'
 NC='\033[0m' # No Color
 
 # for file in $(ls 01/*.tst); do
-for chip in And Not Or; do
+for chip in And Not Or Xor; do
     RESULT=$(./.tools/tools/HardwareSimulator.sh "01/$chip.tst")
     if [ $? -eq 0 ]
     then
