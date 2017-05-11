@@ -1,5 +1,5 @@
 # The Elements of Computing Systems [![Build Status](https://travis-ci.org/Sitebase/The-Elements-of-Computing-Systems.svg?branch=master)](https://travis-ci.org/Sitebase/The-Elements-of-Computing-Systems)
-This repository contains all my implementations for the projects described in the book `The Elements of Computing Systems`.
+This repository contains all my implementations for the projects described in the book [The Elements of Computing Systems](https://www.sitebase.be/the-elements-of-computing-systems/).
 
 ![The Elements of Computing Systems book cover](cover.jpg)
 
